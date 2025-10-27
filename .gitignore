@@ -1,0 +1,176 @@
+# =====================================================================
+# OS Files
+# =====================================================================
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# =====================================================================
+# Python
+# =====================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints
+
+# Python build / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+.cache
+.pytest_cache/
+nosetests.xml
+test-results.xml
+
+# Logs
+*.log
+logs/
+*.out
+*.err
+
+# =====================================================================
+# Environment and Config Files
+# =====================================================================
+# Environment variables
+.env
+.env.local
+.env.*.local
+# Keep only example env
+!.env.example
+
+# YAML configs (keep sample)
+config.yaml
+!config.example.yaml
+
+# =====================================================================
+# Data and Model Files
+# =====================================================================
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.h5
+*.db
+*.sqlite3
+*.parquet
+
+# Large files
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Model weights / checkpoints
+*.bin
+*.pt
+*.pth
+*.ckpt
+models/
+checkpoints/
+
+# =====================================================================
+# Streamlit
+# =====================================================================
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# =====================================================================
+# IDEs and Editors
+# =====================================================================
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+*.iml
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# Others
+*.swp
+*.swo
+
+# =====================================================================
+# Node.js (if frontend or dashboard parts exist)
+# =====================================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+build/
+
+# =====================================================================
+# Cache and Temporary Files
+# =====================================================================
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.swp
+*.swo
+*.swn
+
+# =====================================================================
+# Project-specific
+# =====================================================================
+# Ignore local experiment outputs, generated results, or analytics
+outputs/
+results/
+artifacts/
+reports/
+notebooks/
+figures/
+plots/
+temp/
